@@ -9,12 +9,12 @@ app.get('/', (req,res) => {
 
 app.get('/hello/:name', (req,res) => {
     res.write(`Salut ${req.params.name}`);
-    res.end
+    res.end();
 });
 
 app.get('/goodbye', (req,res) => {
     res.write(`Au revoir c'etait un test`);
-    res.end
+    res.end();
 });
 
 app.listen(3000, _ => {
