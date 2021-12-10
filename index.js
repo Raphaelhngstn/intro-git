@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res) => {
-    res.write('Hello GIT !');
+    res.write('Salut GIT !');
     res.end();
 });
 
